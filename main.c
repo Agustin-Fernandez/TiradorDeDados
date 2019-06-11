@@ -6,13 +6,16 @@
 int main()
 {
     srand(time(NULL));
+    int tipo, intentos;
 
     /// Entrada
-    printf("%f", promedio(6, 2));
+    printf("Ingrese el tipo del dado ");
+    scanf("%d",&tipo);
+    printf("\nIngrese la cantidad de dados ");
+    scanf("%d",&intentos);
 
     /// Salida
+    printf("%f",promedio(tipo,intentos));
 
-
-    printf("Hello world!\n");
     return 0;
 }

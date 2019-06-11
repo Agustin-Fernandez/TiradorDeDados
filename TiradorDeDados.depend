@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1560275556 source:/home/DATOS/TiradorDados/main.c
+1560275766 source:/home/DATOS/TiradorDados/main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
