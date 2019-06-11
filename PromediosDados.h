@@ -5,5 +5,5 @@ int tirada (int tipo);
 int resultado (int tipo, int cantidadDados);
 
 /// Devuelve promedio del dado tipo
-float promedio (int tipo, int cantidadTiradas);
+float promedio (int tipo, int cantidad, int intentos);
 
