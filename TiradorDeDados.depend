@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1560275322 source:/home/DATOS/TiradorDados/main.c
+1560275556 source:/home/DATOS/TiradorDados/main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
 	"PromediosDados.h"
 
-1560275340 source:/home/DATOS/TiradorDados/PromediosDados.c
+1560275590 source:/home/DATOS/TiradorDados/PromediosDados.c
 	<stdlib.h>
 
 1560274942 /home/DATOS/TiradorDados/PromediosDados.h

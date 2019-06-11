@@ -8,7 +8,7 @@ int main()
     srand(time(NULL));
 
     /// Entrada
-    printf("%d", tirada(6));
+    printf("%f", promedio(6, 2));
 
     /// Salida
 
