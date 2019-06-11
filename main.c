@@ -17,7 +17,8 @@ int main()
     scanf("%d",&intentos);
 
     /// Salida
-    printf("%f",promedio(tipo,cantidad,intentos));
+    printf("%f\n",promedio(tipo,cantidad,intentos));
+    int a[cantidad];
 
     return 0;
 }
