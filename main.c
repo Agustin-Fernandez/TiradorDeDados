@@ -9,16 +9,16 @@ int main()
     int tipo, intentos, cantidad;
 
     /// Entrada
-    printf("Ingrese el tipo del dado ");
+    printf("Ingrese el tipo del dado: ");
     scanf("%d",&tipo);
-    printf("Ingrese la cantidad de dados por tirada ");
+    printf("Ingrese la cantidad de dados por tirada: ");
     scanf("%d",&cantidad);
-    printf("\nIngrese la cantidad de intentos ");
+    printf("\nIngrese la cantidad de intentos: ");
     scanf("%d",&intentos);
 
     /// Salida
     printf("%f\n",promedio(tipo,cantidad,intentos));
-    int a[cantidad];
+    printf("%s\n",distribucion);
 
     return 0;
 }
