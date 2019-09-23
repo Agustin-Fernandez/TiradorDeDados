@@ -6,3 +6,6 @@ int resolverComponente (char componenete[]);
 
 /// Devuleve el valor del número pasado como texto
 int textoAInt (char numero[]);
+
+/// Devuelve el numero que representa un caracter
+int digitoAInt (char num);
