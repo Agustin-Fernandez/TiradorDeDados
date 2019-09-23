@@ -29,7 +29,14 @@ int digitoAInt (char num) {
 }
 
 int potenciaEntera (int x, int y) {
+    int i;
+    int res = 1;
 
+    for (i = 0; i < y; i++) {
+        res *= x;
+    }
+
+    return res;
 }
 
 int textoAInt (char numero[]) {
@@ -37,7 +44,7 @@ int textoAInt (char numero[]) {
     int resultado = 0;
 
     for (i = 0; i < strlen(numero); i++) {
-        resultado += digitoAInt(numero[i]) * (10^(strlen(numero)-i-1));
+        resultado += digitoAInt(numero[i]) * (potenciaEntera(10,(strlen(numero)-i-1)));
     }
 
     return resultado;

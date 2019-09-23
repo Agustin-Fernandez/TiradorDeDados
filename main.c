@@ -8,7 +8,7 @@ int main()
 {
     srand(time(NULL));
     int tipo, intentos, cantidad;
-/*
+
     /// Entrada
     printf("Ingrese el tipo del dado: ");
     scanf("%d",&tipo);
@@ -20,12 +20,6 @@ int main()
     /// Salida
     printf("%f\n",promedio(tipo,cantidad,intentos));
     //printf("%s\n",distribucion);
-*/
 
-char numero[5] = "2\0";
-
-printf("%d\n",(10^0));
-printf("%d\n",strlen(numero));
-printf("%d",textoAInt(numero));
     return 0;
 }

@@ -14,7 +14,7 @@
 	<stdio.h>
 	"PromediosDados.h"
 
-1569255223 source:/home/DATOS/TiradorDeDados/main.c
+1569255563 source:/home/DATOS/TiradorDeDados/main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
@@ -26,9 +26,9 @@
 1569253362 source:/home/DATOS/TiradorDeDados/PromediosDados.c
 	<stdlib.h>
 
-1569254979 source:/home/DATOS/TiradorDeDados/IntefazTexto.c
+1569255590 source:/home/DATOS/TiradorDeDados/IntefazTexto.c
 	<stdlib.h>
 	<string.h>
 
-1569254484 /home/DATOS/TiradorDeDados/IntefazTexto.h
+1569255430 /home/DATOS/TiradorDeDados/IntefazTexto.h
 
