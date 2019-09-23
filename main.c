@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include "PromediosDados.h"
+#include "IntefazTexto.h"
 
 int main()
 {
@@ -18,7 +19,7 @@ int main()
 
     /// Salida
     printf("%f\n",promedio(tipo,cantidad,intentos));
-    printf("%s\n",distribucion);
+    //printf("%s\n",distribucion);
 
     return 0;
 }

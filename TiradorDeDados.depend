@@ -14,3 +14,14 @@
 	<stdio.h>
 	"PromediosDados.h"
 
+1569253441 source:/home/DATOS/TiradorDeDados/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"PromediosDados.h"
+
+1569253362 /home/DATOS/TiradorDeDados/PromediosDados.h
+
+1569253362 source:/home/DATOS/TiradorDeDados/PromediosDados.c
+	<stdlib.h>
+
