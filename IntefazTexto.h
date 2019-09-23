@@ -9,3 +9,6 @@ int textoAInt (char numero[]);
 
 /// Devuelve el numero que representa un caracter
 int digitoAInt (char num);
+
+/// Devuelve el resultado de elevar x a la y potencia
+int potenciaEntera (int x, int y);

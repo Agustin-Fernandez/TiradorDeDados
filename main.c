@@ -22,6 +22,10 @@ int main()
     //printf("%s\n",distribucion);
 */
 
-printf("%d",digitoAInt(''));
+char numero[5] = "2\0";
+
+printf("%d\n",(10^0));
+printf("%d\n",strlen(numero));
+printf("%d",textoAInt(numero));
     return 0;
 }

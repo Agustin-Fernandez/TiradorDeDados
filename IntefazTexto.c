@@ -28,6 +28,10 @@ int digitoAInt (char num) {
     }
 }
 
+int potenciaEntera (int x, int y) {
+
+}
+
 int textoAInt (char numero[]) {
     int i;
     int resultado = 0;
