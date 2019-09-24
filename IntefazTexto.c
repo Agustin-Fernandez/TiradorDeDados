@@ -13,6 +13,18 @@ int resolverComponente (char comp[]) {
 
 }
 
+bool esTirada(char expresion[]) {
+    bool res = false;
+    int i = 0;
+
+    for (i = 0; expresion[i]; i++) {
+        if (expresion[i] == 'd')
+            res = true;
+    }
+
+    return res;
+}
+
 int digitoAInt (char num) {
     switch (num) {
     case '0':
