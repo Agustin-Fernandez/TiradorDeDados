@@ -1,6 +1,18 @@
 #include <stdlib.h>
 #include <string.h>
 
+int resolverComponente (char comp[]) {
+    int res;
+
+    if (esTirada(comp)) {
+        res = resultado(obtenerTipo(comp),obtenerCantidad(comp));
+    }
+    else {
+        res = textoAInt(comp);
+    }
+
+}
+
 int digitoAInt (char num) {
     switch (num) {
     case '0':

@@ -14,21 +14,21 @@
 	<stdio.h>
 	"PromediosDados.h"
 
-1569255563 source:/home/DATOS/TiradorDeDados/main.c
+1569330185 source:/home/DATOS/TiradorDeDados/main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
 	"PromediosDados.h"
 	"IntefazTexto.h"
 
-1569253362 /home/DATOS/TiradorDeDados/PromediosDados.h
+1569330185 /home/DATOS/TiradorDeDados/PromediosDados.h
 
-1569253362 source:/home/DATOS/TiradorDeDados/PromediosDados.c
+1569330185 source:/home/DATOS/TiradorDeDados/PromediosDados.c
 	<stdlib.h>
 
 1569255590 source:/home/DATOS/TiradorDeDados/IntefazTexto.c
 	<stdlib.h>
 	<string.h>
 
-1569255430 /home/DATOS/TiradorDeDados/IntefazTexto.h
+1569330185 /home/DATOS/TiradorDeDados/IntefazTexto.h
 
