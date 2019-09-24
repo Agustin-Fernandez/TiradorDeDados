@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-/*int resolverComponente (char comp[]) {
+int resolverComponente(char comp[]) {
     int res;
 
     if (esTirada(comp)) {
@@ -11,7 +11,12 @@
         res = textoAInt(comp);
     }
 
-}*/
+    return res;
+}
+
+int obtenerTipo(char expresion[]) {
+
+}
 
 int esTirada(char expresion[]) {
     int res = 0;
@@ -25,7 +30,7 @@ int esTirada(char expresion[]) {
     return res;
 }
 
-int digitoAInt (char num) {
+int digitoAInt(char num) {
     switch (num) {
     case '0':
         return 0;
@@ -52,7 +57,7 @@ int digitoAInt (char num) {
     }
 }
 
-int potenciaEntera (int x, int y) {
+int potenciaEntera(int x, int y) {
     int i;
     int res = 1;
 
@@ -63,7 +68,7 @@ int potenciaEntera (int x, int y) {
     return res;
 }
 
-int textoAInt (char numero[]) {
+int textoAInt(char numero[]) {
     int i;
     int resultado = 0;
 
