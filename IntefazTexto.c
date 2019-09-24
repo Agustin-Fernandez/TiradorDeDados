@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int resolverComponente (char comp[]) {
+/*int resolverComponente (char comp[]) {
     int res;
 
     if (esTirada(comp)) {
@@ -11,15 +11,15 @@ int resolverComponente (char comp[]) {
         res = textoAInt(comp);
     }
 
-}
+}*/
 
-bool esTirada(char expresion[]) {
-    bool res = false;
+int esTirada(char expresion[]) {
+    int res = 0;
     int i = 0;
 
     for (i = 0; expresion[i]; i++) {
         if (expresion[i] == 'd')
-            res = true;
+            res = 1;
     }
 
     return res;

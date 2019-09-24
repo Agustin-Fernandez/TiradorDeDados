@@ -8,7 +8,7 @@ int main()
 {
     srand(time(NULL));
     int tipo, intentos, cantidad;
-
+/*
     /// Entrada
     printf("Ingrese el tipo del dado: ");
     scanf("%d",&tipo);
@@ -20,6 +20,10 @@ int main()
     /// Salida
     printf("%f\n",promedio(tipo,cantidad,intentos));
     //printf("%s\n",distribucion);
-
+*/
+if(esTirada("2d6"))
+    printf("\nEs una tirada\n");
+else
+    printf("\nNO es tirada\n");
     return 0;
 }

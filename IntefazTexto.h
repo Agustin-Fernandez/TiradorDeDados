@@ -5,7 +5,7 @@ int tiradaUnica (char tirada[]);
 int resolverComponente (char componenete[]);
 
     /// Devuelve TRUE si expresion en una tirada y FALSE en caso contrario
-    bool esTirada(char expresion[]);
+    int esTirada(char expresion[]);
 
     /// Devuelve el tipo de dado de una expresion
     int obtenerTipo(char expresion[]);
